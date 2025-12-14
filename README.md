@@ -1,19 +1,20 @@
 
-# Invoice Management PRO
+# Invoice Management ENTERPRISE
 
-## New Features
-- Bootstrap UI
-- Role-based admin (super admin / staff)
-- Invoice PDF (dompdf)
-- Export Excel (CSV)
-- Multi-currency
-- REST API
-- WhatsApp auto reminder (cron)
+## Enterprise Features
+- Company branding (logo, footer)
+- Reminder H-3, H-1, Overdue
+- RBAC per menu
+- Docker ready
+- Admin audit log
+- Multi company / reseller
 
-## Requirements
-- PHP 8+
+## Stack
+- PHP 8
 - MySQL
-- Composer (for dompdf)
+- Bootstrap 5
+- Dompdf
+- Docker (Apache + PHP)
 
-## Default Admin
-admin / admin123 (SUPER_ADMIN)
+## Default Account
+admin / admin123
