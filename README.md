@@ -1,22 +1,19 @@
 
-# Invoice Management System (PHP & MySQL)
+# Invoice Management PRO
 
-## Features
-- Multi-admin login (password hashed)
-- Customer management (name, phone, address)
-- Product per customer
-- Invoice management
-- WhatsApp reminder button (wa.me)
-- MySQL database
-- Compatible with VPS & Shared Hosting
+## New Features
+- Bootstrap UI
+- Role-based admin (super admin / staff)
+- Invoice PDF (dompdf)
+- Export Excel (CSV)
+- Multi-currency
+- REST API
+- WhatsApp auto reminder (cron)
 
-## Installation
-1. Upload files to hosting / VPS
-2. Create MySQL database
-3. Import `database.sql`
-4. Edit `config/config.php`
-5. Access `/public/login.php`
+## Requirements
+- PHP 8+
+- MySQL
+- Composer (for dompdf)
 
-Default admin:
-- username: admin
-- password: admin123
+## Default Admin
+admin / admin123 (SUPER_ADMIN)
